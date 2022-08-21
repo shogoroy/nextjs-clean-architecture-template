@@ -1,13 +1,8 @@
 import type { NextPage } from "next";
-import LPLayout from "src/components/layouts/LPLayout";
-import TopPageTemplate from "src/components/templates/TopPageTemplate";
+import TopPage from "src/components/pages/TopPage";
 
 const Home: NextPage = () => {
-  return (
-    <LPLayout>
-      <TopPageTemplate />
-    </LPLayout>
-  );
+  return <TopPage />;
 };
 
 export default Home;
