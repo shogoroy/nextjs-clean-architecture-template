@@ -3,19 +3,13 @@ module.exports = {
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:prettier/recommended",
-    "plugin:import/recommended",
-    "plugin:import/typescript",
   ],
-  plugins: ["unused-imports"],
+  plugins: ["unused-imports", "simple-import-sort"],
   rules: {
     "@typescript-eslint/no-unused-vars": "off",
     "unused-imports/no-unused-imports": "error",
-  },
-  settings: {
-    "import/resolver": {
-      typescript: true,
-      node: true,
-    },
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
   },
   globals: {
     React: true,
