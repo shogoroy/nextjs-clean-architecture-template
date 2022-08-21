@@ -15,7 +15,7 @@ const LPLayout: React.FC<Props> = ({ user, children }) => {
   return (
     <>
       <LPHeader />
-      <main>{children}</main>
+      <main className="h-[90vh]">{children}</main>
       <LPFooter />
     </>
   );

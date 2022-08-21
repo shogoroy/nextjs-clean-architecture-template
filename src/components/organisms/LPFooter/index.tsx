@@ -5,7 +5,9 @@ interface Props {}
 
 const LPFooter: React.FC = () => {
   return (
-    <footer className={clsx("fixed", "b-0", "bg-black", "h-16")}>
+    <footer
+      className={clsx("fixed", "b-0", "bg-black", "h-16", "w-full", "p-8")}
+    >
       &copy; <Image src="/logo.svg" alt="Logo" width={72} height={16} />
     </footer>
   );

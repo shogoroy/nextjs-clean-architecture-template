@@ -6,7 +6,7 @@ interface Props {
 
 const TopLPFirstView: React.FC<Props> = () => {
   return (
-    <div>
+    <div className="p-8">
       <Vision />
     </div>
   );
