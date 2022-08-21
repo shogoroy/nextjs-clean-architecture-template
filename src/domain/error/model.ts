@@ -1,5 +1,6 @@
-import { ERROR_CODES, ERROR_TYPES } from "./constant";
 import { ValueOf } from "type-fest";
+
+import { ERROR_CODES, ERROR_TYPES } from "./constant";
 
 export type ErrorType = ValueOf<typeof ERROR_TYPES>;
 export type ErrorCode = ValueOf<typeof ERROR_CODES>;

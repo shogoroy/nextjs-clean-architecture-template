@@ -1,6 +1,7 @@
-import { useViewModel } from "./useViewModel";
 import LPLayout from "src/components/layouts/LPLayout";
 import TopPageTemplate from "src/components/templates/TopPageTemplate";
+
+import { useViewModel } from "./useViewModel";
 
 interface Props {
   //

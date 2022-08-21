@@ -5,7 +5,7 @@ interface Props {
 }
 
 const Vision: React.FC<Props> = ({ className }) => {
-  return <Typography>Some Vision</Typography>;
+  return <Typography className={className}>Some Vision</Typography>;
 };
 
 export default Vision;

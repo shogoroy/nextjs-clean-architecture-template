@@ -1,4 +1,5 @@
 import { XxxV1User } from "src/data/repository/user";
+
 import { User } from "./model";
 
 export const convertXxxV1User2User = (xxxV1User: XxxV1User): User => {

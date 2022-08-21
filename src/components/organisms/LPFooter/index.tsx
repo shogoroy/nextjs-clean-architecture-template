@@ -1,9 +1,9 @@
-import clsx from "clsx";
+import { clsx } from "clsx";
 import Image from "src/components/atoms/Image";
 
 interface Props {}
 
-const LPFooter: React.FC = () => {
+const LPFooter: React.FC<Props> = () => {
   return (
     <footer
       className={clsx("fixed", "b-0", "bg-black", "h-16", "w-full", "p-8")}
